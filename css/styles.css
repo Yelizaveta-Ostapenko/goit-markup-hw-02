@@ -1,15 +1,277 @@
+body {
+  color: #757575;
+  font-family: Roboto, sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+.body1 {
+  color: #757575;
+}
+
+.page-header {
+  background-color: #fff;
+}
+
 .logo {
   color: #2196f3;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
 }
 
 .logo-part {
-  color: #212121;
+  color: black;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
-.logo-parttwo {
-  color: white;
+.page-header-links {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  list-style: none;
 }
 
-.link {
-  color: #212121;
+.page-header-links :hover {
+  color: #2196f3;
+}
+
+.page-header-links :focus {
+  color: #2196f3;
+}
+
+.page-header-links a {
+  text-decoration: none;
+}
+
+.page-header-contacts {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.page-header-contacts a {
+  text-decoration: none;
+}
+
+.page-header-contacts :hover {
+  color: #2196f3;
+}
+
+.page-header-contacts :focus {
+  color: #2196f3;
+}
+
+.advantage {
+  background-color: rgba(47, 48, 58, 1);
+  text-align: center;
+}
+
+.advantage-logo {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
+
+.advantage-button {
+  background-color: #2196f3;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.2;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.advantages {
+  background-color: #fff;
+}
+
+.advantages-list {
+  color: #757575;
+  list-style: none;
+}
+
+.advantages-list-1 {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.advantages-list-1-txt {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.about-1 {
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-items {
+  list-style: none;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-logo {
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-member {
+  list-style: none;
+}
+
+.our-team-name {
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-work {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.foot {
+  background-color: #2f303a;
+}
+
+.foot-logo-1 {
+  color: #2196f3;
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.foot-logo-2 {
+  color: #fff;
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.foot-address {
+  list-style: none;
+}
+
+.foot-address-1 {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.foot-address-2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  color: #2196f3;
+}
+
+.foot a:focus {
+  color: #2196f3;
+}
+
+.portfolio {
+  list-style: none;
+}
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.portfolio-button:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.portfolio-button:focus {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.portfolio-name {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-txt {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
