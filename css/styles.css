@@ -1,3 +1,11 @@
+:root {
+  --basic-txt-color: #212121;
+  --title-txt-color: #fff;
+  -second-txt-color: #757575;
+  --second-bg-color: #2f303a;
+  --accent-color: #2196f3;
+}
+
 body {
   color: #757575;
   font-family: Roboto, sans-serif;
@@ -17,7 +25,7 @@ button {
 
 .logo {
   color: #2196f3;
-  font-family: Raleway, cursive;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -27,7 +35,7 @@ button {
 }
 
 .logo-part {
-  color: black;
+  color: #000;
   font-family: Raleway, cursive;
   font-size: 26px;
   line-height: 1.2;
@@ -36,12 +44,12 @@ button {
 }
 
 .page-header-links {
-  color: black;
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  cursor: pointer;
+
   list-style: none;
 }
 
@@ -54,32 +62,49 @@ button {
 }
 
 .page-header-links a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.page-header-contacts {
+/* .page-header-contacts {
   color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
-}
+} */
 
-.page-header-contacts a {
+.ph-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  list-style: none;
   text-decoration: none;
 }
 
-.page-header-contacts :hover {
+.link1 {
+  color: #757575;
+}
+
+.ph-contact :hover {
   color: #2196f3;
 }
 
-.page-header-contacts :focus {
+.ph-contact :focus {
   color: #2196f3;
 }
 
 .advantage {
-  background-color: rgba(47, 48, 58, 1);
+  background-color: #2f303a;
   text-align: center;
 }
 
@@ -94,7 +119,7 @@ button {
 .advantage-button {
   background-color: #2196f3;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.2;
   align-items: center;
@@ -111,15 +136,15 @@ button {
   list-style: none;
 }
 
-.advantages-list-1 {
-  color: black;
-  font-weight: bold;
+.advantages-list-name {
+  color: #212121;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
-.advantages-list-1-txt {
+.advantages-list-txt {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
@@ -131,9 +156,9 @@ button {
   background-color: #fff;
 }
 
-.about-1 {
-  color: black;
-  font-weight: bold;
+.about-logo {
+  color: #212121;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -149,8 +174,8 @@ button {
 }
 
 .our-team-logo {
-  color: black;
-  font-weight: bold;
+  color: #212121;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -162,7 +187,7 @@ button {
 }
 
 .our-team-name {
-  color: black;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -183,20 +208,20 @@ button {
   background-color: #2f303a;
 }
 
-.foot-logo-1 {
+.foot-logo-part-one {
   color: #2196f3;
-  font-family: Raleway, cursive;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 
-.foot-logo-2 {
+.foot-logo-part-two {
   color: #fff;
-  font-family: Raleway, cursive;
-  font-weight: bold;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -206,7 +231,11 @@ button {
   list-style: none;
 }
 
-.foot-address-1 {
+.foot-list {
+  list-style: none;
+}
+
+.foot-address-location {
   color: #fff;
   font-family: Roboto;
   font-style: normal;
@@ -217,7 +246,7 @@ button {
   text-decoration: none;
 }
 
-.foot-address-2 {
+.foot-contact {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-style: normal;
@@ -239,9 +268,14 @@ button {
 .portfolio {
   list-style: none;
 }
+
+.pb {
+  list-style: none;
+}
+
 .portfolio-button {
   background-color: #f5f4fa;
-  color: black;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -261,7 +295,7 @@ button {
 }
 
 .portfolio-name {
-  color: black;
+  color: #212121;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
